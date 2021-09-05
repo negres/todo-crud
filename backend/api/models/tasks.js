@@ -6,7 +6,7 @@ const {
 module.exports = (sequelize, DataTypes) => {
   const Tasks = sequelize.define('Tasks', {
     description: DataTypes.STRING,
-    date: DataTypes.DATE,
+    completion_date: DataTypes.DATEONLY,
     completed: DataTypes.BOOLEAN
   }, {});
   Tasks.associate = function(models) {
