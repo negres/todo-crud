@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  width: 500px;
+}
+
+.tasks-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
